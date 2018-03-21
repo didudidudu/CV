@@ -1,0 +1,58 @@
+body{
+				background: url('../img/1.jpg')top center no-repeat; 
+    			background-size:cover;
+			}
+			.map{
+				height: 600px;
+				width: 75%;
+				float:left; 
+			}
+			.list{
+				height: 600px;
+				width: 25%;
+				float:left; 
+				background-color: gainsboro;
+				opacity: 0.8;
+			}
+			.list-title{
+				height: 30px;
+				border-bottom: dashed 1px;
+				border-color: #808080;
+			}
+			.input_t{
+				height:100px;
+				width: 400px;
+				line-height: 30px;
+				font-size: 1.2em;
+				border: 1px;
+				padding: 0px;
+				margin: 0px;
+				margin-top: 0px;
+				resize: none;
+			}
+			.input-plan{
+				height:150px;
+				width: 400px;
+				opacity: 0.9;
+				position: absolute;
+				left: calc(50% - 200px);
+				top: calc(50% - 200px);
+				display: none;
+			}
+			.title{
+				height: 50px;
+				width: 100%;
+				background-color: whitesmoke;
+				position: absolute;
+				top:0px;
+				border-radius: 5px 5px 0 0;
+				box-shadow: grey 0px -1px 4px;
+			}
+			.content{
+				height: calc(100% - 50px);
+				width: 100%;
+				position: absolute;
+				bottom:0px;
+				/*border-radius: 0 0 5px 5px;*/
+				box-shadow: grey 0px 1px 4px;
+			}
